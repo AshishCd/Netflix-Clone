@@ -27,7 +27,6 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   }
 
   const handleClick = async(movie) => {
-    console.log(trailerUrl);
     if(trailerUrl !== ""){
       setTrailerUrl("");
     } else {
